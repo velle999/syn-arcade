@@ -1,7 +1,7 @@
 pkgbase = syn-arcade
 	pkgdesc = SynapseOS game assistant: in-game overlay, controller setup and gaming shortcuts
 	pkgver = 0.1.0
-	pkgrel = 56
+	pkgrel = 57
 	url = https://github.com/velle999/SYNAPSE
 	arch = x86_64
 	license = GPL-2.0-or-later
@@ -29,7 +29,7 @@ pkgbase = syn-arcade
 	optdepends = jellyfin-media-player: the Jellyfin tile, likewise
 	optdepends = sdl2-compat: SDL2 games that read the controller mappings
 	optdepends = sdl3: SDL3 games read the mappings — and `syn-arcade map learn` needs it to WRITE one, because the GUID and the button numbers in a mapping are SDL’s own
-	source = syn-arcade-0.1.0.tar.gz::https://github.com/velle999/syn-arcade/releases/download/0.1.0-56/syn-arcade-0.1.0.tar.gz
+	source = syn-arcade-0.1.0.tar.gz::https://github.com/velle999/syn-arcade/releases/download/0.1.0-57/syn-arcade-0.1.0.tar.gz
 	sha256sums = SKIP
 
 pkgname = syn-arcade
