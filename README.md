@@ -56,8 +56,9 @@ rather than a given. A commercial DVD also needs `libdvdcss` and a Blu-ray needs
 `libaacs`; `big disc` names whichever is missing.
 
 A Media Center remote works as a remote: its buttons drive the interface, and
-the five that reach no application at all — OK, ⏭, ⏮, Guide and Power — keep
-working with a film or a browser in front of it.
+the six that do nothing in an application — OK, Back, ⏭, ⏮, Guide and Power —
+keep working with a film or a browser in front of it. Clear pressed twice closes
+the application in front, as `Super`+`Q` does.
 
 The YouTube tile and Jellyfin server tiles open each site's television
 interface, which the arrows and OK drive, full screen in a browser profile of
@@ -92,4 +93,4 @@ Developed in [the SynapseOS monorepo](https://github.com/velle999/SYNAPSE),
 in `syn-arcade/`. **This repository is generated from it** — the PKGBUILD, a
 generated `.SRCINFO` and this README — so issues and patches belong there.
 
-syn-arcade 0.1.0-61 · GPL-2.0-or-later
+syn-arcade 0.1.0-62 · GPL-2.0-or-later
